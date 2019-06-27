@@ -20,12 +20,24 @@ header ul li {
 
 header h1 {
     margin: 0;
-    width: 38%;
+    width: 33%;
     display: inline-block;
     font-size: 20px
 }
 
-section {
+section#cover {
     text-align: center;
+    margin-bottom: 40px;
 }
 
+section#listado-tours {
+    background-color: red
+}
+
+section#listado-tours article{
+    text-align: center
+}
+
+section#listado-tours article img {
+    width: 300px;
+}
